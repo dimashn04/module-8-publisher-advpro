@@ -12,3 +12,5 @@ The URL "amqp://guest:guest@localhost:5672" is commonly used to connect to a mes
 3. "localhost" specifies the hostname or IP address of the machine where the message broker is running. "localhost" means the message broker is running on the same machine as the program.  
 4. "5672" specifies the port number on which the message broker is listening for incoming connections. This is the default port for AMQP.  
 When the same URL is used in both the publisher and subscriber programs, it means that both programs are connecting to the same message broker instance running on the same machine, using the same authentication credentials and port number. This ensures that the publisher can publish messages to the same message broker instance to which the subscriber is subscribed.  
+
+![Rabbit](rabbit.png)  
