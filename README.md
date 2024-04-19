@@ -16,3 +16,4 @@ When the same URL is used in both the publisher and subscriber programs, it mean
 ![Rabbit](rabbit.png)  
 ![Subscrriber](subscriber.png)  
 ![Rabbit_Subs](rabbit_subs.png)  
+![Rabbit_Chart](rabbit_chart.png)  
