@@ -14,3 +14,5 @@ The URL "amqp://guest:guest@localhost:5672" is commonly used to connect to a mes
 When the same URL is used in both the publisher and subscriber programs, it means that both programs are connecting to the same message broker instance running on the same machine, using the same authentication credentials and port number. This ensures that the publisher can publish messages to the same message broker instance to which the subscriber is subscribed.  
 
 ![Rabbit](rabbit.png)  
+![Subscrriber](subscriber.png)  
+![Rabbit_Subs](rabbit_subs.png)  
