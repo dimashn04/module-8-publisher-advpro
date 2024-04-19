@@ -16,4 +16,8 @@ When the same URL is used in both the publisher and subscriber programs, it mean
 ![Rabbit](rabbit.png)  
 ![Subscrriber](subscriber.png)  
 ![Rabbit_Subs](rabbit_subs.png)  
+The image above shows that after the publisher is run. Publisher will send the data that has been hard coded in its code to the message queue. Subscribers who are connected to the message queue will get the data from the message queue and output it in the console according to the code that has been created.  
 ![Rabbit_Chart](rabbit_chart.png)  
+In the second graph, it is shown that there is an increase in messages in a time interval. This is related to the cargo run implemented in the publisher project. Where it can be seen that every time the publisher is implemented, there will be an increase in the message rate on rabbitMQ which is useful as a message queue.  
+![Rabbit_Slow](rabbit_slow.png)  
+In the picture above, it can be seen that at one time there were 20 messages in the queue. This happens because the subscriber needs more time to manage each event in the message queue so that there is a buildup of messages because it is faster for the publisher to publish a message than for the subscriber to create a message.  
