@@ -25,3 +25,7 @@ In the picture above, it can be seen that at one time there were 20 messages in 
 ![2](2.png)  
 ![3](3.png)  
 ![Rabbit_3_Sub](3_sub.png)  
+The spike in the message queue is reduced quicker than before likely because the subscriber’s main.rs includes a sleep function (thread::sleep(ten_millis);) which introduces a delay of 1000 milliseconds (1 second) before printing the message. This could be allowing more time for messages to be processed sequentially, reducing the buildup in the queue.  
+
+As for improvements in the code, here are a few suggestions:  
+1. Asynchronous Processing: The publisher sends messages synchronously; it might benefit from asynchronous message sending if speed is a concern  
