@@ -21,3 +21,7 @@ The image above shows that after the publisher is run. Publisher will send the d
 In the second graph, it is shown that there is an increase in messages in a time interval. This is related to the cargo run implemented in the publisher project. Where it can be seen that every time the publisher is implemented, there will be an increase in the message rate on rabbitMQ which is useful as a message queue.  
 ![Rabbit_Slow](rabbit_slow.png)  
 In the picture above, it can be seen that at one time there were 20 messages in the queue. This happens because the subscriber needs more time to manage each event in the message queue so that there is a buildup of messages because it is faster for the publisher to publish a message than for the subscriber to create a message.  
+![1](1.png)  
+![2](2.png)  
+![3](3.png)  
+![Rabbit_3_Sub](3_sub.png)  
